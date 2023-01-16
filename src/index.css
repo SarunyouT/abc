@@ -1,0 +1,27 @@
+.main-table {
+  width: 100%;
+  text-align: center;
+}
+
+.main-table > thead {
+  font-weight: bold;
+  background-color: antiquewhite;
+}
+
+.main-table td {
+  border: 1px solid black;
+}
+
+.search-input {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+}
+
+.search-input:focus {
+  outline: none;
+}
